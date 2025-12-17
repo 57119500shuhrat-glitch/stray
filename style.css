@@ -1,0 +1,30 @@
+div{
+    background-color: aqua;
+width: 50px;
+height: 50px;
+animation : box infinite 150s 1s ;
+margin-top: 500px;
+}
+
+
+
+@keyframes box{
+    25%{
+        margin-top: 500px;
+        rotate: 900deg;
+    }
+
+    50%{
+        margin-top: 500px;
+       
+    }
+
+    75%{
+        margin-top: 500px;
+    }
+
+    100%{
+        margin-top: 500px;
+        margin-left: 1700px;
+    }
+}
